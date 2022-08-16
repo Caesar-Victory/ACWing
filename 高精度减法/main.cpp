@@ -7,6 +7,7 @@ bool cmp(vector<int> &A, vector<int> &B) {
 	// 先根据数组长度判断大小
 	if (A.size() != B.size()) return A.size() > B.size();
 	int i;
+	// 逐位比较是从高位到低位，在两数位数的个数相同的情况下，从高位开始比较，也就是最右边，因为存储是对原数字从右到左读取的
 	for (int i = A.size() - 1; i >= 0; i--) {
 		if (A[i] != B[i]) {
 			return A[i] > B[i];
@@ -22,6 +23,7 @@ vector<int> sub(vector<int>& A, vector<int>& B) {
 	// 传值从右到左，计算从左到右【高位到低位】
 	for (int i = 0, car = 0; i < A.size(); i++) {
 
+		// 先做减法是去掉上一个索引时的借位，高位在右边
 		car = A[i] - car;
 
 		if (i < B.size()) car -= B[i];
@@ -50,6 +52,7 @@ int main() {
 	for (int i = b.size() - 1; i >= 0; i--) B.push_back(b[i] - '0');
 
 	// 大减小直接运算并且输出，小减大则将传入减法函数的参数对换位置，并且在输出时先输出一个负号
+	// 记得传入实参比较才有效
 	if (cmp(A, B)) {
 		auto C = sub(A, B);
 
