@@ -9,13 +9,13 @@ using namespace std;
 vector<int> add(vector<int>& A, vector<int>& B) {
 	// 生成合并数组
 	vector<int> C;
-	// 用于计算进位
+	// 用于计算进位[carry]
 	int t = 0;
-
+	// 默认 A.size > B.size
 	if (A.size() < B.size()) return add(B, A);
 
 	for (int i = 0; i < A.size(); i++) {
-		if (i < A.size()) t += A[i];
+		t += A[i];
 		if (i < B.size()) t += B[i];
 		C.push_back(t % 10);
 		// 注意此处为除法并且赋值
@@ -36,6 +36,7 @@ int main() {
 	for (int i = a.size() - 1; i >= 0; i--) A.push_back(a[i] - '0');  // A = {6, 5, 4, 3, 2, 1}
 	for (int i = b.size() - 1; i >= 0; i--) B.push_back(b[i] - '0');
 
+	// auto C 等价于 vector<int> C
 	auto C = add(A, B);
 
 	for (int i = C.size() - 1; i >= 0; i--) printf("%d", C[i]);
