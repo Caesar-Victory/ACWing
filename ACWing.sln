@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "二分查找---模板2浮�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "高精度加法", "高精度加法\高精度加法.vcxproj", "{E298829E-CF1D-4D73-93CD-746B87137C3A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "二维前缀和", "二维前缀和\二维前缀和.vcxproj", "{BCA78BF7-FFCB-419B-95CE-C363E1676568}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{E298829E-CF1D-4D73-93CD-746B87137C3A}.Release|x64.Build.0 = Release|x64
 		{E298829E-CF1D-4D73-93CD-746B87137C3A}.Release|x86.ActiveCfg = Release|Win32
 		{E298829E-CF1D-4D73-93CD-746B87137C3A}.Release|x86.Build.0 = Release|Win32
+		{BCA78BF7-FFCB-419B-95CE-C363E1676568}.Debug|x64.ActiveCfg = Debug|x64
+		{BCA78BF7-FFCB-419B-95CE-C363E1676568}.Debug|x64.Build.0 = Debug|x64
+		{BCA78BF7-FFCB-419B-95CE-C363E1676568}.Debug|x86.ActiveCfg = Debug|Win32
+		{BCA78BF7-FFCB-419B-95CE-C363E1676568}.Debug|x86.Build.0 = Debug|Win32
+		{BCA78BF7-FFCB-419B-95CE-C363E1676568}.Release|x64.ActiveCfg = Release|x64
+		{BCA78BF7-FFCB-419B-95CE-C363E1676568}.Release|x64.Build.0 = Release|x64
+		{BCA78BF7-FFCB-419B-95CE-C363E1676568}.Release|x86.ActiveCfg = Release|Win32
+		{BCA78BF7-FFCB-419B-95CE-C363E1676568}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
