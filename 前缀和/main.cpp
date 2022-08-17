@@ -9,6 +9,9 @@ int n, m;
 
 int main() {
 
+	// 提高cin的读取速度，副作用：无法使用scanf
+	ios::sync_with_stdio(false);
+
 	// 分别获取数组的长度，和查询的次数
 	scanf("%d%d", &n, &m);
 
