@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "高精度加法", "高精�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "二维前缀和", "二维前缀和\二维前缀和.vcxproj", "{BCA78BF7-FFCB-419B-95CE-C363E1676568}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "差分数组", "差分数组\差分数组.vcxproj", "{582E8DAC-0C29-482D-88D9-4FECAB2E6A7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{BCA78BF7-FFCB-419B-95CE-C363E1676568}.Release|x64.Build.0 = Release|x64
 		{BCA78BF7-FFCB-419B-95CE-C363E1676568}.Release|x86.ActiveCfg = Release|Win32
 		{BCA78BF7-FFCB-419B-95CE-C363E1676568}.Release|x86.Build.0 = Release|Win32
+		{582E8DAC-0C29-482D-88D9-4FECAB2E6A7C}.Debug|x64.ActiveCfg = Debug|x64
+		{582E8DAC-0C29-482D-88D9-4FECAB2E6A7C}.Debug|x64.Build.0 = Debug|x64
+		{582E8DAC-0C29-482D-88D9-4FECAB2E6A7C}.Debug|x86.ActiveCfg = Debug|Win32
+		{582E8DAC-0C29-482D-88D9-4FECAB2E6A7C}.Debug|x86.Build.0 = Debug|Win32
+		{582E8DAC-0C29-482D-88D9-4FECAB2E6A7C}.Release|x64.ActiveCfg = Release|x64
+		{582E8DAC-0C29-482D-88D9-4FECAB2E6A7C}.Release|x64.Build.0 = Release|x64
+		{582E8DAC-0C29-482D-88D9-4FECAB2E6A7C}.Release|x86.ActiveCfg = Release|Win32
+		{582E8DAC-0C29-482D-88D9-4FECAB2E6A7C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
