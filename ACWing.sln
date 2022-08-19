@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "二维差分数组[adjacent
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "双指针【简易版】", "双指针【简易版】\双指针【简易版】.vcxproj", "{8770F264-5631-4992-A6B6-9340A3F159A2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "双指针进阶【搜索区间起点】", "双指针进阶【搜索区间起点】\双指针进阶【搜索区间起点】.vcxproj", "{DF057DAB-6A2E-4289-92CB-3C12C38E330B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{8770F264-5631-4992-A6B6-9340A3F159A2}.Release|x64.Build.0 = Release|x64
 		{8770F264-5631-4992-A6B6-9340A3F159A2}.Release|x86.ActiveCfg = Release|Win32
 		{8770F264-5631-4992-A6B6-9340A3F159A2}.Release|x86.Build.0 = Release|Win32
+		{DF057DAB-6A2E-4289-92CB-3C12C38E330B}.Debug|x64.ActiveCfg = Debug|x64
+		{DF057DAB-6A2E-4289-92CB-3C12C38E330B}.Debug|x64.Build.0 = Debug|x64
+		{DF057DAB-6A2E-4289-92CB-3C12C38E330B}.Debug|x86.ActiveCfg = Debug|Win32
+		{DF057DAB-6A2E-4289-92CB-3C12C38E330B}.Debug|x86.Build.0 = Debug|Win32
+		{DF057DAB-6A2E-4289-92CB-3C12C38E330B}.Release|x64.ActiveCfg = Release|x64
+		{DF057DAB-6A2E-4289-92CB-3C12C38E330B}.Release|x64.Build.0 = Release|x64
+		{DF057DAB-6A2E-4289-92CB-3C12C38E330B}.Release|x86.ActiveCfg = Release|Win32
+		{DF057DAB-6A2E-4289-92CB-3C12C38E330B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
