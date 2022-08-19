@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "双指针【简易版】", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "双指针进阶【搜索区间起点】", "双指针进阶【搜索区间起点】\双指针进阶【搜索区间起点】.vcxproj", "{DF057DAB-6A2E-4289-92CB-3C12C38E330B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "位运算【计算当前数字的二进制】", "位运算【计算当前数字的二进制】\位运算【计算当前数字的二进制】.vcxproj", "{6789EFBB-6FE3-4E99-888A-A5256589BC9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +113,14 @@ Global
 		{DF057DAB-6A2E-4289-92CB-3C12C38E330B}.Release|x64.Build.0 = Release|x64
 		{DF057DAB-6A2E-4289-92CB-3C12C38E330B}.Release|x86.ActiveCfg = Release|Win32
 		{DF057DAB-6A2E-4289-92CB-3C12C38E330B}.Release|x86.Build.0 = Release|Win32
+		{6789EFBB-6FE3-4E99-888A-A5256589BC9F}.Debug|x64.ActiveCfg = Debug|x64
+		{6789EFBB-6FE3-4E99-888A-A5256589BC9F}.Debug|x64.Build.0 = Debug|x64
+		{6789EFBB-6FE3-4E99-888A-A5256589BC9F}.Debug|x86.ActiveCfg = Debug|Win32
+		{6789EFBB-6FE3-4E99-888A-A5256589BC9F}.Debug|x86.Build.0 = Debug|Win32
+		{6789EFBB-6FE3-4E99-888A-A5256589BC9F}.Release|x64.ActiveCfg = Release|x64
+		{6789EFBB-6FE3-4E99-888A-A5256589BC9F}.Release|x64.Build.0 = Release|x64
+		{6789EFBB-6FE3-4E99-888A-A5256589BC9F}.Release|x86.ActiveCfg = Release|Win32
+		{6789EFBB-6FE3-4E99-888A-A5256589BC9F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
