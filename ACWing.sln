@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "双指针进阶【搜索区
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "位运算【计算当前数字的二进制】", "位运算【计算当前数字的二进制】\位运算【计算当前数字的二进制】.vcxproj", "{6789EFBB-6FE3-4E99-888A-A5256589BC9F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "位运算lowbit【计算二进制表示中1的个数】", "位运算lowbit【计算二进制表示中1的个数】\位运算lowbit【计算二进制表示中1的个数】.vcxproj", "{BECC3465-0684-4C7C-8A8B-CF220EAB4A62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -121,6 +123,14 @@ Global
 		{6789EFBB-6FE3-4E99-888A-A5256589BC9F}.Release|x64.Build.0 = Release|x64
 		{6789EFBB-6FE3-4E99-888A-A5256589BC9F}.Release|x86.ActiveCfg = Release|Win32
 		{6789EFBB-6FE3-4E99-888A-A5256589BC9F}.Release|x86.Build.0 = Release|Win32
+		{BECC3465-0684-4C7C-8A8B-CF220EAB4A62}.Debug|x64.ActiveCfg = Debug|x64
+		{BECC3465-0684-4C7C-8A8B-CF220EAB4A62}.Debug|x64.Build.0 = Debug|x64
+		{BECC3465-0684-4C7C-8A8B-CF220EAB4A62}.Debug|x86.ActiveCfg = Debug|Win32
+		{BECC3465-0684-4C7C-8A8B-CF220EAB4A62}.Debug|x86.Build.0 = Debug|Win32
+		{BECC3465-0684-4C7C-8A8B-CF220EAB4A62}.Release|x64.ActiveCfg = Release|x64
+		{BECC3465-0684-4C7C-8A8B-CF220EAB4A62}.Release|x64.Build.0 = Release|x64
+		{BECC3465-0684-4C7C-8A8B-CF220EAB4A62}.Release|x86.ActiveCfg = Release|Win32
+		{BECC3465-0684-4C7C-8A8B-CF220EAB4A62}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
