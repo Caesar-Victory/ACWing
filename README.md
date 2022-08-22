@@ -23,3 +23,8 @@
         - [ ] [1094. 拼车 - 力扣（LeetCode）](https://leetcode.cn/problems/car-pooling/)
         - [ ] [基础算法：差分讲解_八百标兵奔北坡666的博客-CSDN博客_差分计算公式](https://blog.csdn.net/weixin_43705195/article/details/88370758)
     4. 差分矩阵
+6. 离散化
+    - [ ] [493. 翻转对 - 力扣（LeetCode）](https://leetcode.cn/problems/reverse-pairs/)
+    - [ ] [1036. 逃离大迷宫 - 力扣（LeetCode）](https://leetcode.cn/problems/escape-a-large-maze/)
+    - [ ] [1854. 人口最多的年份 - 力扣（LeetCode）](https://leetcode.cn/problems/maximum-population-year/)
+7. xxx
