@@ -33,6 +33,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "平台测试", "平台测�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "离散化", "离散化\离散化.vcxproj", "{337F92B6-EF38-4A0F-B55F-8EB5D6680073}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "区间合并", "区间合并\区间合并.vcxproj", "{862CE3D1-3B8F-4507-BDCE-28BC7BC78752}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -161,6 +163,14 @@ Global
 		{337F92B6-EF38-4A0F-B55F-8EB5D6680073}.Release|x64.Build.0 = Release|x64
 		{337F92B6-EF38-4A0F-B55F-8EB5D6680073}.Release|x86.ActiveCfg = Release|Win32
 		{337F92B6-EF38-4A0F-B55F-8EB5D6680073}.Release|x86.Build.0 = Release|Win32
+		{862CE3D1-3B8F-4507-BDCE-28BC7BC78752}.Debug|x64.ActiveCfg = Debug|x64
+		{862CE3D1-3B8F-4507-BDCE-28BC7BC78752}.Debug|x64.Build.0 = Debug|x64
+		{862CE3D1-3B8F-4507-BDCE-28BC7BC78752}.Debug|x86.ActiveCfg = Debug|Win32
+		{862CE3D1-3B8F-4507-BDCE-28BC7BC78752}.Debug|x86.Build.0 = Debug|Win32
+		{862CE3D1-3B8F-4507-BDCE-28BC7BC78752}.Release|x64.ActiveCfg = Release|x64
+		{862CE3D1-3B8F-4507-BDCE-28BC7BC78752}.Release|x64.Build.0 = Release|x64
+		{862CE3D1-3B8F-4507-BDCE-28BC7BC78752}.Release|x86.ActiveCfg = Release|Win32
+		{862CE3D1-3B8F-4507-BDCE-28BC7BC78752}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
