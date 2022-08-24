@@ -2,6 +2,10 @@
 
 
 
+## 第一部分：基础知识
+
+
+
 1. 快速排序
     - [ ] [912. 排序数组 - 力扣（LeetCode）](https://leetcode.cn/problems/sort-an-array/)
 2. 归并排序
@@ -28,3 +32,21 @@
     - [ ] [1036. 逃离大迷宫 - 力扣（LeetCode）](https://leetcode.cn/problems/escape-a-large-maze/)
     - [ ] [1854. 人口最多的年份 - 力扣（LeetCode）](https://leetcode.cn/problems/maximum-population-year/)
 7. xxx
+
+
+
+## 第二部分：数据结构
+
+
+
+1. 单链表
+2. 双链表
+3. 栈
+4. 队列
+5. 单调栈
+6. 单调队列
+7. KMP
+8. Trie
+9. 并查集
+10. 堆
+11. 哈希表
