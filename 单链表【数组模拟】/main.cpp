@@ -1,51 +1,89 @@
 #include <iostream>
 #include <cstdio>
 
-using namespace  std;
+using namespace std;
 
-// 申请数组空间；
 const int N = 1e5 + 10;
 
-// head：分别存储链表节点的值，next指针指向 下一个节点的值
-// head 当前可用的，最新的节点的下标【新建节点的序列号】， idx 存储当前已经用过的点
-// e[]  负责存储节点，idx按照顺序编号
+// head: 指向下一个新的可插入节点
+// idx: 所有节点的下标
 int head, idx, e[N], ne[N];
 
-void init() {
-
-	head = -1;
-	idx = 0;
+// 初始化，头节点默认为：-1
+void init(void) {
+    head = -1;
+    idx = 0;
 }
 
-// 从头节点开始插入
-void add_head(int x) {
-	
-	// 1. 用数组和idx指针将待插入数值存储起来
-	// 2. 修改当前位序的nex数组中的值为head,head永远代表当前可用的，最新节点的下标
-	// 3. head接受idx下标，
-	e[idx] = x, ne[idx] = head, head = idx, idx++;
-}
-
-// 将元素插入到K节点的后面
-void add(int k, int x) {
-
-	// 先将值存储起来 
-	e[idx] = x;
-	// 将插入节点的next指针，指向 K节点的后一个节点
-	ne[idx] = ne[k];
-	// 将值传递给下标为K的节点
-	ne[k] = x;
-	idx++;
-}
-
-// 将K后节点删除【仅修改指针指向的节点】
 void remove(int k) {
 
-	// ne[ne[k]] 代表K节点的下一个节点
-	ne[k - 1] = ne[ne[k]];
+    // 当前节点指向当前节点的下一个节点
+    ne[k] = ne[ne[k]];
+}
+
+// 从头节点插入
+void add_head(int k) {
+
+    // e是链表，首先使用idx指针将数值存储起来
+    e[idx] = k;
+    // 利用下标，将【新节点的】nex指针指向头节点
+    ne[idx] = head;
+    // head 接收idx指针
+    head = idx;
+    idx++;
+}
+
+// 从某个节点的后面插入
+void add_rear(int k, int x) {
+
+    // 照例将待插入节点的值，存储起来
+    e[idx] = x;
+    // 可用下标idx推动nex指针，接受K的下一个节点
+    ne[idx] = ne[k];
+    // k的下一个节点与idx交换节点，因为nex数组始终存储下一个节点的下标，而idx已经用过了
+    ne[k] = idx;
+    idx++;
 }
 
 int main() {
+    int m;
+    cin >> m;
 
-	return 0;
+    init();
+
+    while (m--) {
+        char flag;
+        cin >> flag;
+
+        if (flag == 'H') {
+
+            int val;
+            cin >> val;
+
+            add_head(val);
+        }
+        else if (flag == 'D') {
+
+            int k;
+            cin >> k;
+
+            //特判：当 k = 0时，意味着删除头节点，那么直接把下一个可插入节点直接指向 在nex数组中head的下一个节点
+            if (!k) head = ne[head];
+
+            remove(k - 1);
+        }
+        else if (flag == 'I') {
+            int k, x;
+            cin >> k >> x;
+
+            add_rear(k - 1, x);
+        }
+
+    }
+
+    // e存储链表，指针推移依靠ne数组，i始终从nex数组中取出下标--->移动指针
+    for (int i = head; i != -1; i = ne[i]) cout << e[i] << " ";
+    cout << endl;
+
+    return 0;
 }
