@@ -39,6 +39,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "单链表【数组模拟】
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stimulation of doubly linked list[Part Two]", "stimulation of doubly linked list[Part Two]\stimulation of doubly linked list[Part Two].vcxproj", "{4D6F2B0D-9D1F-417D-9384-C5131BF41747}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stimulation of stack [Part Two]", "stimulation of stack [Part Two]\stimulation of stack [Part Two].vcxproj", "{0E8375F6-5E2B-4A31-B9CD-FCEFC5F82AA3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -191,6 +193,14 @@ Global
 		{4D6F2B0D-9D1F-417D-9384-C5131BF41747}.Release|x64.Build.0 = Release|x64
 		{4D6F2B0D-9D1F-417D-9384-C5131BF41747}.Release|x86.ActiveCfg = Release|Win32
 		{4D6F2B0D-9D1F-417D-9384-C5131BF41747}.Release|x86.Build.0 = Release|Win32
+		{0E8375F6-5E2B-4A31-B9CD-FCEFC5F82AA3}.Debug|x64.ActiveCfg = Debug|x64
+		{0E8375F6-5E2B-4A31-B9CD-FCEFC5F82AA3}.Debug|x64.Build.0 = Debug|x64
+		{0E8375F6-5E2B-4A31-B9CD-FCEFC5F82AA3}.Debug|x86.ActiveCfg = Debug|Win32
+		{0E8375F6-5E2B-4A31-B9CD-FCEFC5F82AA3}.Debug|x86.Build.0 = Debug|Win32
+		{0E8375F6-5E2B-4A31-B9CD-FCEFC5F82AA3}.Release|x64.ActiveCfg = Release|x64
+		{0E8375F6-5E2B-4A31-B9CD-FCEFC5F82AA3}.Release|x64.Build.0 = Release|x64
+		{0E8375F6-5E2B-4A31-B9CD-FCEFC5F82AA3}.Release|x86.ActiveCfg = Release|Win32
+		{0E8375F6-5E2B-4A31-B9CD-FCEFC5F82AA3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
