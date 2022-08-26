@@ -37,6 +37,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "区间合并", "区间合�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "单链表【数组模拟】", "单链表【数组模拟】\单链表【数组模拟】.vcxproj", "{C38E0652-9481-443A-B807-92C9759FC9B7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stimulation of doubly linked list[Part Two]", "stimulation of doubly linked list[Part Two]\stimulation of doubly linked list[Part Two].vcxproj", "{4D6F2B0D-9D1F-417D-9384-C5131BF41747}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -181,6 +183,14 @@ Global
 		{C38E0652-9481-443A-B807-92C9759FC9B7}.Release|x64.Build.0 = Release|x64
 		{C38E0652-9481-443A-B807-92C9759FC9B7}.Release|x86.ActiveCfg = Release|Win32
 		{C38E0652-9481-443A-B807-92C9759FC9B7}.Release|x86.Build.0 = Release|Win32
+		{4D6F2B0D-9D1F-417D-9384-C5131BF41747}.Debug|x64.ActiveCfg = Debug|x64
+		{4D6F2B0D-9D1F-417D-9384-C5131BF41747}.Debug|x64.Build.0 = Debug|x64
+		{4D6F2B0D-9D1F-417D-9384-C5131BF41747}.Debug|x86.ActiveCfg = Debug|Win32
+		{4D6F2B0D-9D1F-417D-9384-C5131BF41747}.Debug|x86.Build.0 = Debug|Win32
+		{4D6F2B0D-9D1F-417D-9384-C5131BF41747}.Release|x64.ActiveCfg = Release|x64
+		{4D6F2B0D-9D1F-417D-9384-C5131BF41747}.Release|x64.Build.0 = Release|x64
+		{4D6F2B0D-9D1F-417D-9384-C5131BF41747}.Release|x86.ActiveCfg = Release|Win32
+		{4D6F2B0D-9D1F-417D-9384-C5131BF41747}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
