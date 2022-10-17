@@ -49,6 +49,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "trie[Part Two]", "trie[Part
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KMP(BF)", "KMP(BF)\KMP(BF).vcxproj", "{6EDF148F-A8A1-42E9-AA43-617668C96A25}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KMP[ch]", "KMP[ch]\KMP[ch].vcxproj", "{396C4C79-F805-42A7-B214-1AB608168B9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -241,6 +243,14 @@ Global
 		{6EDF148F-A8A1-42E9-AA43-617668C96A25}.Release|x64.Build.0 = Release|x64
 		{6EDF148F-A8A1-42E9-AA43-617668C96A25}.Release|x86.ActiveCfg = Release|Win32
 		{6EDF148F-A8A1-42E9-AA43-617668C96A25}.Release|x86.Build.0 = Release|Win32
+		{396C4C79-F805-42A7-B214-1AB608168B9A}.Debug|x64.ActiveCfg = Debug|x64
+		{396C4C79-F805-42A7-B214-1AB608168B9A}.Debug|x64.Build.0 = Debug|x64
+		{396C4C79-F805-42A7-B214-1AB608168B9A}.Debug|x86.ActiveCfg = Debug|Win32
+		{396C4C79-F805-42A7-B214-1AB608168B9A}.Debug|x86.Build.0 = Debug|Win32
+		{396C4C79-F805-42A7-B214-1AB608168B9A}.Release|x64.ActiveCfg = Release|x64
+		{396C4C79-F805-42A7-B214-1AB608168B9A}.Release|x64.Build.0 = Release|x64
+		{396C4C79-F805-42A7-B214-1AB608168B9A}.Release|x86.ActiveCfg = Release|Win32
+		{396C4C79-F805-42A7-B214-1AB608168B9A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

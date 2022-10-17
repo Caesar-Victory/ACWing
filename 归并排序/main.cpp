@@ -8,7 +8,7 @@ int n;
 int q[N], temp[N];
 
 void merge_sort(int q[], int l, int r) {
-	// ÅĞ¶Ï±ß½ç
+	// ÅĞ¶Ï±ß½ç,µİ¹éµÄÖÕÖ¹Ìõ¼ş
 	if (l >= r) {
 		return;
 	}
