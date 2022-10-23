@@ -1,23 +1,27 @@
 #include <iostream>
 #include <string>
+#include <cstdio>
+
 using namespace std;
 
-int main(void) {
-	string mains = "ABCDEFABCDOABFO", subs = "ABCD0";
-	int m = 0, s = 0;
-	int mlen = mains.length(), slen = subs.length();
-	while (m < mlen && s < slen) {
-		if (mains[m] != subs[s]) {
-			m = m - s + 1;
-			s = 0;
+int bruteForce(string s, string t, int sp, int tp) {
+	int send = s.length(), tend = t.length();
+	while (sp < send && tp < tend) {
+		if (s[sp] != t[tp]) {
+			sp = sp - tp + 1;
+			tp = 0;
 		}
 		else {
-			m++, s++;
+			sp++, tp++;
 		}
 	}
 
-	if (m >= s) printf("%d\n", m - s);
-	else printf("None!");
+	if (sp >= tp) return sp - tp;
+	else return -1;
+}
 
+int main(void) {
+	int k = bruteForce("aabacda", "aba", 0, 0);
+	printf("%d\n", k);
 	return 0;
 }

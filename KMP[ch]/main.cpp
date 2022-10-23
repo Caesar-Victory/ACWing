@@ -9,8 +9,8 @@ int slen, tlen, nxt[N];
 /*code for KMP algorithm*/
 
 void get_nxt(string t) {
-    // KMP 从 0 位序开始匹配，所以有此初始值，如果从 1 开始，则 j = 1, k = 0
-    // J 指的是 S/T串同一位序的起点, K 是 nxt 数组的默认值
+    // KMP 从 0 位序开始匹配，所以有此初始值，如果从 1 开始，则 j = 1, k = 0, J, K 总是错开1
+    // J 指的是 S/T串 同一位序的起点, K 是 nxt 数组的默认值
     int j = 0, k = -1;
     // -1 意味着第一个字符就前后缀就不相等
     nxt[0] = -1;
