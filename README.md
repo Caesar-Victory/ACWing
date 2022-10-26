@@ -22,11 +22,14 @@
 5. 前缀与差分
     1. 一维前缀和
     2. 二维前缀和
-    3. 差分
+    3. 前缀和
+        - [ ] [862. 和至少为 K 的最短子数组 - 力扣（Leetcode）](https://leetcode.cn/problems/shortest-subarray-with-sum-at-least-k/description/)
+        - [ ] https://leetcode.cn/problems/subarray-sum-equals-k/description/
+    4. 差分
         - [ ] [370. 区间加法 - 力扣（LeetCode）](https://leetcode.cn/problems/range-addition/)
         - [ ] [1094. 拼车 - 力扣（LeetCode）](https://leetcode.cn/problems/car-pooling/)
         - [ ] [基础算法：差分讲解_八百标兵奔北坡666的博客-CSDN博客_差分计算公式](https://blog.csdn.net/weixin_43705195/article/details/88370758)
-    4. 差分矩阵
+    5. 差分矩阵
 6. 离散化
     - [ ] [493. 翻转对 - 力扣（LeetCode）](https://leetcode.cn/problems/reverse-pairs/)
     - [ ] [1036. 逃离大迷宫 - 力扣（LeetCode）](https://leetcode.cn/problems/escape-a-large-maze/)
@@ -46,6 +49,8 @@
 5. 单调栈
 6. 单调队列
 7. KMP
+    - [x] [28. 找出字符串中第一个匹配项的下标 - 力扣（Leetcode）](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/description/)
+
 8. Trie
 9. 并查集
 10. 堆
