@@ -42,7 +42,7 @@
 
 
 
-1. 单链表
+1. ###### 单链表
 2. 双链表
 3. 栈
 4. 队列
@@ -54,6 +54,9 @@
 8. Trie
 9. 并查集
 10. 堆
+
+    - [ ] [1046. 最后一块石头的重量 - 力扣（Leetcode）](https://leetcode.cn/problems/last-stone-weight/solutions/)
+
 11. 哈希表
 
 
