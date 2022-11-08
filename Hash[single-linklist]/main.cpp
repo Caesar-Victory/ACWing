@@ -79,3 +79,5 @@ int main(void) {
 // 避免哈希碰撞的两种方式，以及memset的深层控制【未吸收】
 // https://www.acwing.com/solution/content/33699/
 // https://www.cnblogs.com/east7/p/12594894.html
+// 拓展阅读 0x3f
+// https://blog.csdn.net/lyj2014211626/article/details/65481630
