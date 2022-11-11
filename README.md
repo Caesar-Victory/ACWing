@@ -59,6 +59,15 @@
 
 11. 哈希表
 
+     1. 拉链法
+     2. 开放寻址法
+     3. 字符串前缀哈希法[polymonial rolling hash]
+         - [ ] [1044. 最长重复子串 - 力扣（Leetcode）](https://leetcode.cn/problems/longest-duplicate-substring/description/)
+         - [ ] [1392. 最长快乐前缀 - 力扣（Leetcode）](https://leetcode.cn/problems/longest-happy-prefix/solutions/)
+         - [ ] 备注：同时兼容KMP
+         - [ ] [2223. 构造字符串的总得分和 - 力扣（Leetcode）](https://leetcode.cn/problems/sum-of-scores-of-built-strings/)
+
+
 
 
 ## 最后一部分：调试技巧
