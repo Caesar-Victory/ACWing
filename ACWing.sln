@@ -79,6 +79,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BFS[tree][center of gravity
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BFS[tree][tier of point in draw]", "BFS[tree][tier of point in draw]\BFS[tree][tier of point in draw].vcxproj", "{E9C9CCFC-9EFC-473E-AE4B-72F1EC0D1E5C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Topological Sorting[directed acyclic graph sort]", "Topological Sorting[directed acyclic graph sort]\Topological Sorting[directed acyclic graph sort].vcxproj", "{9E14622F-D43F-4EDC-8B06-2148B3C9EB7F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -391,6 +393,14 @@ Global
 		{E9C9CCFC-9EFC-473E-AE4B-72F1EC0D1E5C}.Release|x64.Build.0 = Release|x64
 		{E9C9CCFC-9EFC-473E-AE4B-72F1EC0D1E5C}.Release|x86.ActiveCfg = Release|Win32
 		{E9C9CCFC-9EFC-473E-AE4B-72F1EC0D1E5C}.Release|x86.Build.0 = Release|Win32
+		{9E14622F-D43F-4EDC-8B06-2148B3C9EB7F}.Debug|x64.ActiveCfg = Debug|x64
+		{9E14622F-D43F-4EDC-8B06-2148B3C9EB7F}.Debug|x64.Build.0 = Debug|x64
+		{9E14622F-D43F-4EDC-8B06-2148B3C9EB7F}.Debug|x86.ActiveCfg = Debug|Win32
+		{9E14622F-D43F-4EDC-8B06-2148B3C9EB7F}.Debug|x86.Build.0 = Debug|Win32
+		{9E14622F-D43F-4EDC-8B06-2148B3C9EB7F}.Release|x64.ActiveCfg = Release|x64
+		{9E14622F-D43F-4EDC-8B06-2148B3C9EB7F}.Release|x64.Build.0 = Release|x64
+		{9E14622F-D43F-4EDC-8B06-2148B3C9EB7F}.Release|x86.ActiveCfg = Release|Win32
+		{9E14622F-D43F-4EDC-8B06-2148B3C9EB7F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
