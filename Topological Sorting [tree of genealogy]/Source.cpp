@@ -49,7 +49,7 @@ int main(void) {
 
         int son;
         while (cin >> son, son) {
-
+            // 这里的son循环获取多个对象，绑定入度关系时，不应该是 i 在后 son 在前吗？
             add(i, son);
             d[son]++;
         }
