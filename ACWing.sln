@@ -85,6 +85,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Topological Sorting [tree o
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dijkstra[the generic][849]", "Dijkstra[the generic][849]\Dijkstra[the generic][849].vcxproj", "{69D6951F-4605-4A2D-94B1-7D17FAE79EBD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dijkstra[heap optimization]", "Dijkstra[heap optimization]\Dijkstra[heap optimization].vcxproj", "{0EBB66AB-70A1-419A-AFFB-9A6C7D4EB0E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -421,6 +423,14 @@ Global
 		{69D6951F-4605-4A2D-94B1-7D17FAE79EBD}.Release|x64.Build.0 = Release|x64
 		{69D6951F-4605-4A2D-94B1-7D17FAE79EBD}.Release|x86.ActiveCfg = Release|Win32
 		{69D6951F-4605-4A2D-94B1-7D17FAE79EBD}.Release|x86.Build.0 = Release|Win32
+		{0EBB66AB-70A1-419A-AFFB-9A6C7D4EB0E8}.Debug|x64.ActiveCfg = Debug|x64
+		{0EBB66AB-70A1-419A-AFFB-9A6C7D4EB0E8}.Debug|x64.Build.0 = Debug|x64
+		{0EBB66AB-70A1-419A-AFFB-9A6C7D4EB0E8}.Debug|x86.ActiveCfg = Debug|Win32
+		{0EBB66AB-70A1-419A-AFFB-9A6C7D4EB0E8}.Debug|x86.Build.0 = Debug|Win32
+		{0EBB66AB-70A1-419A-AFFB-9A6C7D4EB0E8}.Release|x64.ActiveCfg = Release|x64
+		{0EBB66AB-70A1-419A-AFFB-9A6C7D4EB0E8}.Release|x64.Build.0 = Release|x64
+		{0EBB66AB-70A1-419A-AFFB-9A6C7D4EB0E8}.Release|x86.ActiveCfg = Release|Win32
+		{0EBB66AB-70A1-419A-AFFB-9A6C7D4EB0E8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

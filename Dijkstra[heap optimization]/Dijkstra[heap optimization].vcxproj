@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{69d6951f-4605-4a2d-94b1-7d17fae79ebd}</ProjectGuid>
-    <RootNamespace>Dijkstrathegeneric849</RootNamespace>
+    <ProjectGuid>{0ebb66ab-70a1-419a-affb-9a6c7d4eb0e8}</ProjectGuid>
+    <RootNamespace>Dijkstraheapoptimization</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
