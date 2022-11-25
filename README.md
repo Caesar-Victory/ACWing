@@ -77,6 +77,14 @@
 
 ## BFS
 
+
+
+- [ ] [1254. 统计封闭岛屿的数目 - 力扣（Leetcode）](https://leetcode.cn/problems/number-of-closed-islands/?envType=study-plan&id=graph-theory-basic&plan=graph&plan_progress=150m33d)
+- [ ] [1020. 飞地的数量 - 力扣（Leetcode）](https://leetcode.cn/problems/number-of-enclaves/?envType=study-plan&id=graph-theory-basic&plan=graph&plan_progress=150m33d)
+- [ ] [1905. 统计子岛屿 - 力扣（Leetcode）](https://leetcode.cn/problems/count-sub-islands/?envType=study-plan&id=graph-theory-basic&plan=graph&plan_progress=150m33d)
+
+
+
 ## 树与图的优先遍历
 
 ## 树与图的广度优先遍历

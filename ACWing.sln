@@ -87,6 +87,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dijkstra[the generic][849]"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dijkstra[heap optimization]", "Dijkstra[heap optimization]\Dijkstra[heap optimization].vcxproj", "{0EBB66AB-70A1-419A-AFFB-9A6C7D4EB0E8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BellmanFord[basic]", "BellmanFord[basic]\BellmanFord[basic].vcxproj", "{70FB1694-61DB-4603-A01A-5CB68C414768}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -431,6 +433,14 @@ Global
 		{0EBB66AB-70A1-419A-AFFB-9A6C7D4EB0E8}.Release|x64.Build.0 = Release|x64
 		{0EBB66AB-70A1-419A-AFFB-9A6C7D4EB0E8}.Release|x86.ActiveCfg = Release|Win32
 		{0EBB66AB-70A1-419A-AFFB-9A6C7D4EB0E8}.Release|x86.Build.0 = Release|Win32
+		{70FB1694-61DB-4603-A01A-5CB68C414768}.Debug|x64.ActiveCfg = Debug|x64
+		{70FB1694-61DB-4603-A01A-5CB68C414768}.Debug|x64.Build.0 = Debug|x64
+		{70FB1694-61DB-4603-A01A-5CB68C414768}.Debug|x86.ActiveCfg = Debug|Win32
+		{70FB1694-61DB-4603-A01A-5CB68C414768}.Debug|x86.Build.0 = Debug|Win32
+		{70FB1694-61DB-4603-A01A-5CB68C414768}.Release|x64.ActiveCfg = Release|x64
+		{70FB1694-61DB-4603-A01A-5CB68C414768}.Release|x64.Build.0 = Release|x64
+		{70FB1694-61DB-4603-A01A-5CB68C414768}.Release|x86.ActiveCfg = Release|Win32
+		{70FB1694-61DB-4603-A01A-5CB68C414768}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

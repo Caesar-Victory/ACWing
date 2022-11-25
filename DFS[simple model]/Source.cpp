@@ -4,16 +4,16 @@
 
 using namespace std;
 const int N = 7;
-int n;
+int n;  
 int path[N];
-bool st[N];
+ 
 
 void dfs(int u) {
 
     // 递归结束的条件是：用于标记衍生字符串产长度的变量 u 与 主串长度相等
     if (u == n) {
         for (int i = 0; i < n; i++) printf("%d ", path[i]);
-        puts(" ");
+        puts("");
         return;
     }
 
