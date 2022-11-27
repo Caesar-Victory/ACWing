@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{70fb1694-61db-4603-a01a-5cb68c414768}</ProjectGuid>
-    <RootNamespace>BellmanFordbasic</RootNamespace>
+    <ProjectGuid>{0eb3453c-d425-4965-bc6f-0ba58238dd86}</ProjectGuid>
+    <RootNamespace>SPFABellmanFordoptimization</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
