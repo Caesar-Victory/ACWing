@@ -99,6 +99,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Floyd", "Floyd\Floyd.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Quick_Select[]", "Quick_Select[]\Quick_Select[].vcxproj", "{A4CD3B4C-132C-402B-93D4-D2720E0CC06A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Prim[pure]", "Prim[pure]\Prim[pure].vcxproj", "{593A65AF-6C27-4725-8A44-A7A00F6BD8C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -491,6 +493,14 @@ Global
 		{A4CD3B4C-132C-402B-93D4-D2720E0CC06A}.Release|x64.Build.0 = Release|x64
 		{A4CD3B4C-132C-402B-93D4-D2720E0CC06A}.Release|x86.ActiveCfg = Release|Win32
 		{A4CD3B4C-132C-402B-93D4-D2720E0CC06A}.Release|x86.Build.0 = Release|Win32
+		{593A65AF-6C27-4725-8A44-A7A00F6BD8C5}.Debug|x64.ActiveCfg = Debug|x64
+		{593A65AF-6C27-4725-8A44-A7A00F6BD8C5}.Debug|x64.Build.0 = Debug|x64
+		{593A65AF-6C27-4725-8A44-A7A00F6BD8C5}.Debug|x86.ActiveCfg = Debug|Win32
+		{593A65AF-6C27-4725-8A44-A7A00F6BD8C5}.Debug|x86.Build.0 = Debug|Win32
+		{593A65AF-6C27-4725-8A44-A7A00F6BD8C5}.Release|x64.ActiveCfg = Release|x64
+		{593A65AF-6C27-4725-8A44-A7A00F6BD8C5}.Release|x64.Build.0 = Release|x64
+		{593A65AF-6C27-4725-8A44-A7A00F6BD8C5}.Release|x86.ActiveCfg = Release|Win32
+		{593A65AF-6C27-4725-8A44-A7A00F6BD8C5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
