@@ -105,6 +105,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Kruskal[859]", "Kruskal[859
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hungarian[861]", "Hungarian[861]\Hungarian[861].vcxproj", "{06128064-3912-4526-8DBF-9CA6E878B493}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Brush[860]", "Brush[860]\Brush[860].vcxproj", "{A0E73D50-C5FB-44E4-A2D9-1FADBDE5C004}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -521,6 +523,14 @@ Global
 		{06128064-3912-4526-8DBF-9CA6E878B493}.Release|x64.Build.0 = Release|x64
 		{06128064-3912-4526-8DBF-9CA6E878B493}.Release|x86.ActiveCfg = Release|Win32
 		{06128064-3912-4526-8DBF-9CA6E878B493}.Release|x86.Build.0 = Release|Win32
+		{A0E73D50-C5FB-44E4-A2D9-1FADBDE5C004}.Debug|x64.ActiveCfg = Debug|x64
+		{A0E73D50-C5FB-44E4-A2D9-1FADBDE5C004}.Debug|x64.Build.0 = Debug|x64
+		{A0E73D50-C5FB-44E4-A2D9-1FADBDE5C004}.Debug|x86.ActiveCfg = Debug|Win32
+		{A0E73D50-C5FB-44E4-A2D9-1FADBDE5C004}.Debug|x86.Build.0 = Debug|Win32
+		{A0E73D50-C5FB-44E4-A2D9-1FADBDE5C004}.Release|x64.ActiveCfg = Release|x64
+		{A0E73D50-C5FB-44E4-A2D9-1FADBDE5C004}.Release|x64.Build.0 = Release|x64
+		{A0E73D50-C5FB-44E4-A2D9-1FADBDE5C004}.Release|x86.ActiveCfg = Release|Win32
+		{A0E73D50-C5FB-44E4-A2D9-1FADBDE5C004}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
