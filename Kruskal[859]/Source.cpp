@@ -12,13 +12,13 @@ int p[N];
 struct Edge {
 
     int a, b, w;
-    // 小于符号 运算符重载，使得结构体支持比较和排序
+    // 小于符号 运算符重载，使得结构体支持sort()函数进行比较和排序
     bool operator< (const Edge& W) const {
         return w < W.w;
     };
 } edges[N];
 
-// 元素的集合判断
+// 元素的集合[连通性]判断:下标是否与下标对应的数组元素相同
 int find(int x) {
 
     if (p[x] != x) p[x] = find(p[x]);
@@ -62,8 +62,13 @@ int main(void) {
         }
     }
 
+    // 抽屉原理，cnt是最小生成树中节点个数, n个节点，对应 n - 1条边；
     if (cnt < n - 1) puts("impossible");
     else printf("%d\n", res);
 
     return 0;
 }
+
+// 难点：对结构体中权重属性的排序，实现方式：sort内部lambda匿名函数，运算符重载；
+// https://www.acwing.com/video/288/
+// https://www.acwing.com/activity/content/code/content/48773/

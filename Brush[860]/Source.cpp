@@ -30,9 +30,12 @@ bool dfs(int u, int c) {
         if (!color[j]) {
             // 3 - c就可以实现 1 ---> 2 / 2 ---> 1
             // DFS逐层深入，在已知上层颜色为c的情况下，把下层通过3-c转换即可
+            // 3- c 用来转换颜色，在一个只有1，2两种颜色的图中，可以达到一种非此即彼的效果
             if (!dfs(j, 3 - c)) return false;
             // 父子同色则返回False
         }
+        // 和红黑树的定义近似，一个红色节点必有两个黑色的子节点；换句话说，父子节点的颜色不一样
+        // 可用于处理自环，自环的定义是自己指向自己，那么必然导致起点和终点的颜色相同
         else if (color[j] == c) return false;
     }
 
@@ -77,3 +80,6 @@ int main(void) {
 
     return 0;
 }
+
+// https://www.acwing.com/video/289/
+// https://www.acwing.com/activity/content/code/content/48778/
