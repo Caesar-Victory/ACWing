@@ -34,13 +34,21 @@ int main(void) {
         if (op[0] == 'M') {
             // a 的祖宗节点指向 b 的祖宗节点【赋值的形式】
             // 给a节点找爸爸，用P数组更换下标的方式，看看是不是b节点的爸爸
+            // 可以用find(int x) 函数根据路径找父节点的逻辑理解 p[x] = find(p[x])
+            // 相当于在 find(b) = find(a)，对左边的递归加了一层读取，其目的是为为了修改a节点父亲节点
+            // 达到将a父亲节点全部等于b的祖宗节点，换句话说是将一整棵子树全部修改为一个祖宗
             p[find(a)] = find(b);
         }
         else {
             // 如果 a, b 节点的爸爸相等，则返回 否则返回
+            // 不能确定所有的节点以及被路径压缩，因此需要递归查找
             if (find(a) == find(b)) puts("Yes");
             else puts("No");
         }
     }
     return 0;
 }
+
+//  易错点：char数组无需指定位序；
+//  https://www.acwing.com/video/261/
+//  https://www.acwing.com/activity/content/code/content/45287/
