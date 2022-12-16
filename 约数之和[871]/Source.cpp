@@ -46,5 +46,5 @@ int main(void) {
 // 易错点：求取质数及其质数时，不必枚举每个数字；不必特判质数为某个数的平方根的情况
 // 易错点，获取n个数时，每一个数会作为上限即m,而非n
 // 因为同时统计指数和指数，且其指数为2
-// // https://www.acwing.com/video/295/
-// https://www.acwing.com/problem/content/872/
+// https://www.acwing.com/video/296/
+// https://www.acwing.com/activity/content/code/content/49985/
