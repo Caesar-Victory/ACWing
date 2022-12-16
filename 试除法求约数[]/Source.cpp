@@ -7,6 +7,8 @@ using namespace std;
 vector<int> get_divide(int n) {
 
     vector<int> res;
+    // 约数也是成对出现的，
+    // 除了平方根以外，其余数字均在枚举到成对约数中较小的一个时，通过if判断存储另外一个
     for (int i = 1; i <= n / i; i++) {
 
         if (n % i == 0) {
@@ -32,3 +34,6 @@ int main(void) {
     }
     return 0;
 }
+
+// https://www.acwing.com/video/294/
+// https://www.acwing.com/activity/content/code/content/49976/
