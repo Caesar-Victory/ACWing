@@ -10,7 +10,7 @@ void get_divide(int n) {
 
         if (n % i == 0) {
 
-            // 成对约数中较小数直接输出，较大数直接存储
+            // 成对约数中较小数直接输出，较大数直接存储【没有遇到输入数平方根的情况】
             cout << i << " ";
             if (i != n / i) res.push(n / i);
         }
@@ -35,3 +35,6 @@ int main(void) {
         puts("");
     }
 }
+// 易错点：引入栈的头文件；读取栈顶元素和删除栈顶元素，容易忘记括号；
+// https://www.acwing.com/video/294/
+// https://www.acwing.com/activity/content/code/content/49976/
