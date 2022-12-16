@@ -121,6 +121,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "试除法求约数[栈优�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Heap[construct and down operation]", "Heap[construct and down operation]\Heap[construct and down operation].vcxproj", "{E562F500-BBEE-48FA-9D78-B56F0904A1A8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "约数个数[870]", "约数个数[870]\约数个数[870].vcxproj", "{C405788D-F839-4880-A46C-472FB9617218}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -601,6 +603,14 @@ Global
 		{E562F500-BBEE-48FA-9D78-B56F0904A1A8}.Release|x64.Build.0 = Release|x64
 		{E562F500-BBEE-48FA-9D78-B56F0904A1A8}.Release|x86.ActiveCfg = Release|Win32
 		{E562F500-BBEE-48FA-9D78-B56F0904A1A8}.Release|x86.Build.0 = Release|Win32
+		{C405788D-F839-4880-A46C-472FB9617218}.Debug|x64.ActiveCfg = Debug|x64
+		{C405788D-F839-4880-A46C-472FB9617218}.Debug|x64.Build.0 = Debug|x64
+		{C405788D-F839-4880-A46C-472FB9617218}.Debug|x86.ActiveCfg = Debug|Win32
+		{C405788D-F839-4880-A46C-472FB9617218}.Debug|x86.Build.0 = Debug|Win32
+		{C405788D-F839-4880-A46C-472FB9617218}.Release|x64.ActiveCfg = Release|x64
+		{C405788D-F839-4880-A46C-472FB9617218}.Release|x64.Build.0 = Release|x64
+		{C405788D-F839-4880-A46C-472FB9617218}.Release|x86.ActiveCfg = Release|Win32
+		{C405788D-F839-4880-A46C-472FB9617218}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
