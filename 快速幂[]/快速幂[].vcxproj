@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{b9a76ac2-1602-46b5-aa94-8f93e2373b20}</ProjectGuid>
-    <RootNamespace>线性筛求欧拉函数</RootNamespace>
+    <ProjectGuid>{9f13f221-217b-4d09-9187-a6f2cbad89eb}</ProjectGuid>
+    <RootNamespace>快速幂</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
