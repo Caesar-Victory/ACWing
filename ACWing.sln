@@ -135,6 +135,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "快速幂[]", "快速幂[]\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "单调队列【滑动窗口】", "单调队列【滑动窗口】\单调队列【滑动窗口】.vcxproj", "{AF7038DB-29D3-4AAC-A5FC-2B89E7F2844C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "扩展欧几里得算法[]", "扩展欧几里得算法[]\扩展欧几里得算法[].vcxproj", "{F3A1F25C-1885-4E33-A7AA-BD6C17D17127}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "快速幂求逆元[]", "快速幂求逆元[]\快速幂求逆元[].vcxproj", "{FC7FA78A-3D02-4BA6-ABB1-A99078A28FDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -671,6 +675,22 @@ Global
 		{AF7038DB-29D3-4AAC-A5FC-2B89E7F2844C}.Release|x64.Build.0 = Release|x64
 		{AF7038DB-29D3-4AAC-A5FC-2B89E7F2844C}.Release|x86.ActiveCfg = Release|Win32
 		{AF7038DB-29D3-4AAC-A5FC-2B89E7F2844C}.Release|x86.Build.0 = Release|Win32
+		{F3A1F25C-1885-4E33-A7AA-BD6C17D17127}.Debug|x64.ActiveCfg = Debug|x64
+		{F3A1F25C-1885-4E33-A7AA-BD6C17D17127}.Debug|x64.Build.0 = Debug|x64
+		{F3A1F25C-1885-4E33-A7AA-BD6C17D17127}.Debug|x86.ActiveCfg = Debug|Win32
+		{F3A1F25C-1885-4E33-A7AA-BD6C17D17127}.Debug|x86.Build.0 = Debug|Win32
+		{F3A1F25C-1885-4E33-A7AA-BD6C17D17127}.Release|x64.ActiveCfg = Release|x64
+		{F3A1F25C-1885-4E33-A7AA-BD6C17D17127}.Release|x64.Build.0 = Release|x64
+		{F3A1F25C-1885-4E33-A7AA-BD6C17D17127}.Release|x86.ActiveCfg = Release|Win32
+		{F3A1F25C-1885-4E33-A7AA-BD6C17D17127}.Release|x86.Build.0 = Release|Win32
+		{FC7FA78A-3D02-4BA6-ABB1-A99078A28FDC}.Debug|x64.ActiveCfg = Debug|x64
+		{FC7FA78A-3D02-4BA6-ABB1-A99078A28FDC}.Debug|x64.Build.0 = Debug|x64
+		{FC7FA78A-3D02-4BA6-ABB1-A99078A28FDC}.Debug|x86.ActiveCfg = Debug|Win32
+		{FC7FA78A-3D02-4BA6-ABB1-A99078A28FDC}.Debug|x86.Build.0 = Debug|Win32
+		{FC7FA78A-3D02-4BA6-ABB1-A99078A28FDC}.Release|x64.ActiveCfg = Release|x64
+		{FC7FA78A-3D02-4BA6-ABB1-A99078A28FDC}.Release|x64.Build.0 = Release|x64
+		{FC7FA78A-3D02-4BA6-ABB1-A99078A28FDC}.Release|x86.ActiveCfg = Release|Win32
+		{FC7FA78A-3D02-4BA6-ABB1-A99078A28FDC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
