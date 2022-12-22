@@ -118,9 +118,12 @@
 
  筛质数
 
-[P3912 素数个数 - 洛谷 | 计算机科学教育新生态 (luogu.com.cn)](https://www.luogu.com.cn/problem/P3912)
+- [x] [P3912 素数个数 - 洛谷 | 计算机科学教育新生态 (luogu.com.cn)](https://www.luogu.com.cn/problem/P3912)
 
-[204. 计数质数 - 力扣（Leetcode）](https://leetcode.cn/problems/count-primes/description/)
+- [x] [204. 计数质数 - 力扣（Leetcode）](https://leetcode.cn/problems/count-primes/description/)
+- [ ] 核心模式注意数组和变量初始化，全局变量放置在 ```class Solution```里面；
+- [ ] Python 不方便直接处理除法的取余问题，可以直接转化为乘法；
+- [ ] Python 不便于使用指针的同时嵌套数组的值作为for循环的判断条件，指针声明+while语句即可解决；
 
 分解质因数
 快速幂

@@ -25,3 +25,5 @@ int main(void) {
     }
     return 0;
 }
+// https://www.acwing.com/video/301/
+// https://www.acwing.com/activity/content/code/content/50238/
