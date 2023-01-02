@@ -20,6 +20,7 @@ int main(void) {
     while (n--) {
         int a, p;
         scanf("%d%d", &a, &p);
+        // 公式为 b ^ (p - 2) 同余于 1 (mod p)
         if (a % p) printf("%d\n", quickmi(a, p - 2, p));
         else puts("impossible");
     }

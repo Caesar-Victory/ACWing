@@ -143,6 +143,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "线性同余方程", "线�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "高斯消元法[]", "高斯消元法[]\高斯消元法[].vcxproj", "{AC536DFE-A46F-4F6F-83B4-AB0F3A350A49}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "求组合数[DP]", "求组合数[DP]\求组合数[DP].vcxproj", "{6E0C53AA-C6DD-49DF-B4A9-2400B3C74588}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -711,6 +713,14 @@ Global
 		{AC536DFE-A46F-4F6F-83B4-AB0F3A350A49}.Release|x64.Build.0 = Release|x64
 		{AC536DFE-A46F-4F6F-83B4-AB0F3A350A49}.Release|x86.ActiveCfg = Release|Win32
 		{AC536DFE-A46F-4F6F-83B4-AB0F3A350A49}.Release|x86.Build.0 = Release|Win32
+		{6E0C53AA-C6DD-49DF-B4A9-2400B3C74588}.Debug|x64.ActiveCfg = Debug|x64
+		{6E0C53AA-C6DD-49DF-B4A9-2400B3C74588}.Debug|x64.Build.0 = Debug|x64
+		{6E0C53AA-C6DD-49DF-B4A9-2400B3C74588}.Debug|x86.ActiveCfg = Debug|Win32
+		{6E0C53AA-C6DD-49DF-B4A9-2400B3C74588}.Debug|x86.Build.0 = Debug|Win32
+		{6E0C53AA-C6DD-49DF-B4A9-2400B3C74588}.Release|x64.ActiveCfg = Release|x64
+		{6E0C53AA-C6DD-49DF-B4A9-2400B3C74588}.Release|x64.Build.0 = Release|x64
+		{6E0C53AA-C6DD-49DF-B4A9-2400B3C74588}.Release|x86.ActiveCfg = Release|Win32
+		{6E0C53AA-C6DD-49DF-B4A9-2400B3C74588}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
