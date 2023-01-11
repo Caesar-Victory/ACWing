@@ -21,6 +21,7 @@
     4. 高精度除法
 5. 前缀与差分
     1. 一维前缀和
+        - [x] [2485. 找出中枢整数 - 力扣（LeetCode）](https://leetcode.cn/problems/find-the-pivot-integer/)
     2. 二维前缀和
     3. 前缀和
         - [ ] [862. 和至少为 K 的最短子数组 - 力扣（Leetcode）](https://leetcode.cn/problems/shortest-subarray-with-sum-at-least-k/description/)

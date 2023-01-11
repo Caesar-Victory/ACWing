@@ -26,5 +26,6 @@ int main(void) {
     }
     return 0;
 }
+// 费马小定理： https://zh.wikipedia.org/wiki/%E8%B4%B9%E9%A9%AC%E5%B0%8F%E5%AE%9A%E7%90%86
 // https://www.acwing.com/video/301/
 // https://www.acwing.com/activity/content/code/content/50238/

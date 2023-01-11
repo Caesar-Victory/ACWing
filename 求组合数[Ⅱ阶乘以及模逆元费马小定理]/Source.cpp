@@ -32,6 +32,7 @@ int main(void) {
     fact[0] = infact[0] = 1;
     for (int i = 1; i < N; i++) {
         fact[i] = (LL)fact[i - 1] * i % mod;
+        // infact[i] = (LL)qmi(fact[i], mod - 2, mod) % mod; //通过fact求infact
         infact[i] = (LL)infact[i - 1] * qmi(i, mod - 2, mod) % mod;
     }
 
@@ -50,5 +51,6 @@ int main(void) {
 
 // 易错点，快速幂中指数k每次除以 2 仅写向右位移一位，忘记写等号
 // 阶乘运算，遍历起点是1，而非0
+// 费马小定理： https://zh.wikipedia.org/wiki/%E8%B4%B9%E9%A9%AC%E5%B0%8F%E5%AE%9A%E7%90%86
 // https://www.acwing.com/video/307/
 // https://www.acwing.com/activity/content/code/content/53394/
