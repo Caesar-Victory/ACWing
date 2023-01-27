@@ -147,6 +147,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "求组合数[DP]", "求组�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "求组合数[Ⅱ阶乘以及模逆元费马小定理]", "求组合数[Ⅱ阶乘以及模逆元费马小定理]\求组合数[Ⅱ阶乘以及模逆元费马小定理].vcxproj", "{85A88AF7-64EF-4BE9-8E41-8F819A35E8AC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "求组合数3[卢卡斯定理+求组合数+快速幂求逆元]", "求组合数3[卢卡斯定理+求组合数+快速幂求逆元]\求组合数3[卢卡斯定理+求组合数+快速幂求逆元].vcxproj", "{D1ECF928-E023-4229-A544-035D04620EC2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -731,6 +733,14 @@ Global
 		{85A88AF7-64EF-4BE9-8E41-8F819A35E8AC}.Release|x64.Build.0 = Release|x64
 		{85A88AF7-64EF-4BE9-8E41-8F819A35E8AC}.Release|x86.ActiveCfg = Release|Win32
 		{85A88AF7-64EF-4BE9-8E41-8F819A35E8AC}.Release|x86.Build.0 = Release|Win32
+		{D1ECF928-E023-4229-A544-035D04620EC2}.Debug|x64.ActiveCfg = Debug|x64
+		{D1ECF928-E023-4229-A544-035D04620EC2}.Debug|x64.Build.0 = Debug|x64
+		{D1ECF928-E023-4229-A544-035D04620EC2}.Debug|x86.ActiveCfg = Debug|Win32
+		{D1ECF928-E023-4229-A544-035D04620EC2}.Debug|x86.Build.0 = Debug|Win32
+		{D1ECF928-E023-4229-A544-035D04620EC2}.Release|x64.ActiveCfg = Release|x64
+		{D1ECF928-E023-4229-A544-035D04620EC2}.Release|x64.Build.0 = Release|x64
+		{D1ECF928-E023-4229-A544-035D04620EC2}.Release|x86.ActiveCfg = Release|Win32
+		{D1ECF928-E023-4229-A544-035D04620EC2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
